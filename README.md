@@ -44,10 +44,7 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
 
 Вставляем следующий текст
 
-<<<<<<< HEAD
-```bash
-=======
->>>>>>> 887c17b75385254d51df0afa6f7fe9a6b9755fc0
+```
     Section "Device"
       Identifier "uga"
       driver "fbdev" 
@@ -66,10 +63,7 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
       Identifier "default" 
       Screen 0 "screen" 0 0 
     EndSection
-<<<<<<< HEAD
 ```
 
 Перезагружаемся
-=======
 
->>>>>>> 887c17b75385254d51df0afa6f7fe9a6b9755fc0
