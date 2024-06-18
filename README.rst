@@ -43,8 +43,7 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
     nano /usr/share/X11/xorg.conf.d/60-displaylink.conf
 
 Вставляем следующий текст
-
-```
+```bash
     Section "Device"
       Identifier "uga"
       driver "fbdev" 
