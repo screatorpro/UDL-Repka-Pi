@@ -42,8 +42,8 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
 
 Вставляем следующий текст
 
-    Section "Device" 
-      Identifier "uga" 
+    Section "Device"
+      Identifier "uga"
       driver "fbdev" 
       Option "fbdev" "/dev/fb0" 
       Option "ShadowFB" "off"
