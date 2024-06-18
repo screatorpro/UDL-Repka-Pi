@@ -44,7 +44,6 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
 
 Вставляем следующий текст
 
-```bash
     Section "Device"
       Identifier "uga"
       driver "fbdev" 
@@ -63,4 +62,4 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
       Identifier "default" 
       Screen 0 "screen" 0 0 
     EndSection
-```
+
