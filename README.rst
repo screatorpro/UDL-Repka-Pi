@@ -34,7 +34,9 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
 
 После установки проверим наличие fb устройства `ls /dev/fb*`. Если у вас подключин монитор через HDMI то должно быть 2 устройства
 
-Проверям какое устройство у DisplayLink командой `dmesg | grep DisplayLink`
+Проверям какое устройство у DisplayLink командой `dmesg | grep udl`
+
+  udl 4-1.4:1.0: [drm] fb0: udldrmfb frame buffer device
 
 Создаем файл настроек X11
 
@@ -42,6 +44,7 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
 
 Вставляем следующий текст
 
+```
     Section "Device"
       Identifier "uga"
       driver "fbdev" 
@@ -60,3 +63,4 @@ UDL драйве DisplayLink DL-1xx для Repka Pi 3
       Identifier "default" 
       Screen 0 "screen" 0 0 
     EndSection
+```
